@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+ /* Defines the layout of the site */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-image: url(../images/right_bar.png);
+  	background-repeat: repeat-x;
+}
+
+#container { /*contains the entire site */
+	width: 70%;
+	height: 600px;
+	background-color:#CC9;
+	-moz-box-shadow: 0px 0px 20px 5px #000000;
+  	-webkit-box-shadow: 0px 0px 20px 5px #000000;
+  	box-shadow: 0px 0px 20px 5px #000000;
+  	border-radius: 100px;
+  	-moz-border-radius: 100px;
+  	-webkit-border-radius: 100px;
+  	border-radius: 100px;
+  	background-color: #ffffff; 
+  	margin-bottom: 50px;
+	padding: 30px;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 20px;
+	right: 120px;
+}
+
+#content { /*holds site content*/
+	margin-left: 130px;
+}
+
+.bar_box { /*displays image with radial gradient at the top of the site*/
+  background-image: url(../images/left_bar.png);
+  background-repeat:no-repeat;
+  width:auto;
+  height: 235px;
+}
+
+.alpha { 
+	float: left;
+	background-color:#998788;
+	clear: left;
+}
+
+.omega {
+	float: left;
+	clear: right;
+	background-color: #998788;
+}
+
+.grid_1 {
+	width: 300px;
+	height: 150px;
+	border: thin solid #693336;
+	padding: 30px;
+}
+
+#gal {
+	width: 100%;
+	clear: both;
+}
+
+#gallery {
+	width: 200px;
+}
+
+button {
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	font-size:12px;
+}
+
+.gallery-container {
+	background-color:#0CC;
+	width: 600px;
+}
+
+img {
+	width: 100px;
+	height: 80px;
+	border: thick solid #9e2027;
+	float: left;
+}
+
+h2 {
+	text-align: center;
+}
+
+.clear {
+	clear: both;

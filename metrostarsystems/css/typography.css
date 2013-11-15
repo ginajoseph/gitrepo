@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Defines the typography of the site */
+label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+
